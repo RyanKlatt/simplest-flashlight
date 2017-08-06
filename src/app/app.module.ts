@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { Flashlight } from '@ionic-native/flashlight';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { HeaderColor } from '@ionic-native/header-color';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { HomePage } from '../pages/home/home';
     StatusBar,
     SplashScreen,
     Flashlight,
+    HeaderColor,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

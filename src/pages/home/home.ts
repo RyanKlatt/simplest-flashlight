@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Flashlight } from '@ionic-native/flashlight';
+import { HeaderColor } from '@ionic-native/header-color';
 
 @Component({
   selector: 'page-home',
@@ -8,8 +9,12 @@ import { Flashlight } from '@ionic-native/flashlight';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController, private flashlight: Flashlight) {
+  constructor(private headerColor: HeaderColor, public navCtrl: NavController, private flashlight: Flashlight) {
+  	this.headerColor.tint('#222');
+  }
 
+  ionViewWillEnter() {
+  	this.lightOn();
   }
 
   lightOn(){
