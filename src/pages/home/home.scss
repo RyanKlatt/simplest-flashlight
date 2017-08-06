@@ -12,14 +12,15 @@ page-home {
 	}
 	#lightOff {
 		font-size: 95vw;
-		color: #981135;
+		/*color: #981135;*/
+		color: #404ace;
 		position: absolute;
 	    top: 50%;
 	    left: 50%;
 	    height: 50%;
 	    transform: translate(-50%, -50%);
 	    display: block;
-	    text-shadow: 2px 8px 45px #fff;
+	    text-shadow: 2px 8px 65px #eef93f;
 	    display: none;
 	}
 	ion-content {
