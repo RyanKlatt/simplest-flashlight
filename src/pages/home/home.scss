@@ -1,5 +1,5 @@
 page-home {
-	ion-icon {
+	#lightOn {
 		font-size: 95vw;
 		color: #404ace;
 		position: absolute;
@@ -8,9 +8,21 @@ page-home {
 	    height: 50%;
 	    transform: translate(-50%, -50%);
 	    display: block;
-	    text-shadow: 2px -2px 33px #fff;
+	    text-shadow: 2px 8px 45px #fff;
+	}
+	#lightOff {
+		font-size: 95vw;
+		color: #981135;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    height: 50%;
+	    transform: translate(-50%, -50%);
+	    display: block;
+	    text-shadow: 2px 8px 45px #fff;
+	    display: none;
 	}
 	ion-content {
-		background: #1d1b1b;
+		background: #1d1b1b !important;
 	}
 }
