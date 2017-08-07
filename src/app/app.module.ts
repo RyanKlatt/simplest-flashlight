@@ -7,6 +7,7 @@ import { Flashlight } from '@ionic-native/flashlight';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HeaderColor } from '@ionic-native/header-color';
+import { ScreenOrientation } from '@ionic-native/screen-orientation';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { HeaderColor } from '@ionic-native/header-color';
     SplashScreen,
     Flashlight,
     HeaderColor,
+    ScreenOrientation,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
