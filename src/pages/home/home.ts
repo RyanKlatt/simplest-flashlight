@@ -15,10 +15,6 @@ export class HomePage {
     this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.PORTRAIT);
   }
 
-  ionViewWillEnter() {
-  	this.flashlight.switchOn();
-  }
-
   lightOn(){
     var lightOn = document.getElementById('lightOn');
     var lightOff = document.getElementById('lightOff');
